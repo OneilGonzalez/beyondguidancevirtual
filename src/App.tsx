@@ -3,6 +3,7 @@
 import React from 'react';
 import Task from "./components/Task";
 import NavBar from './components/NavBar'; // Import the Navbar component
+import './index.css'
 
 const App: React.FC = () => {
   return (
