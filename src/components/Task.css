@@ -11,41 +11,60 @@
   }
   
   .container {
-    max-width: 800px;
-    margin: 50px auto;
-    justify-content: center; /* Center content horizontally *//* Center content horizontally */
-  }
+    max-width: calc(2168px + 120px); /* Adjust max-width to include space of .navbar margins */
+    margin: 60px auto;
+    justify-content: center; /* Center content horizontally */
+}
   
+.task-item {
+  border-bottom: 1px solid #ccc;
+  width: calc(100% - 120px); /* Adjust width to match .navbar */
+  margin-left: 60px; /* Adjust left margin to match .navbar left */
+  margin-right: 60px; /* Adjust right margin to match .navbar right */
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.task-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.task-icon {
+  font-size: 20px;
+}
+
+.task-content {
+  display: none;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* Show active task content */
+.task-item.active .task-content {
+  display: block;
+}
+
+/*Responsive adjustments */
+/*parang di need?*/
+@media only screen and (max-width: 768px) {
   .task-item {
-    border-bottom: 1px solid #ccc;
+    width: calc(100% - 120px); /* Adjust width for larger screens */
+    margin: 0 60px; /* Adjust margin for larger screens */
   }
-  
-  .task-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    cursor: pointer;
-    background-color: #fff;
+}
+
+@media only screen and (min-width: 1200px) {
+  .task-item {
+    width: calc(100% - 120px); /* Adjust width for larger screens */
+    margin: 0 60px; /* Adjust margin for larger screens */
   }
-  
-  .task-title {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .task-icon {
-    font-size: 20px;
-  }
-  
-  .task-content {
-    display: none;
-    padding: 20px;
-    background-color: #f1f1f1;
-  }
-  
-  /* Show active task content */
-  .task-item.active .task-content {
-    display: block;
-  }
-  
+}
+
