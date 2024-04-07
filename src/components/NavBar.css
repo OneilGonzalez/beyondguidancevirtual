@@ -1,0 +1,56 @@
+/* Navbar.css */
+.navbar {
+    position: fixed;
+    top: 20px;
+    left: 60px; /* Adjust left margin */
+    right: 60px; /* Adjust right margin */
+    background-color: #333;
+    padding: 15px; /* Adjust padding as needed */
+    margin-top: 5px; /* Adjust top margin */
+    margin-bottom: 5px; /* Adjust bottom margin */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar-links li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+    color: #ddd;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        left: 20px; /* Adjust left margin for smaller screens */
+        right: 20px; /* Adjust right margin for smaller screens */
+    }
+    
+    .navbar-logo {
+        font-size: 1.2rem; /* Decrease font size for smaller screens */
+    }
+    
+    .navbar-links li {
+        margin-right: 10px; /* Decrease margin between links for smaller screens */
+    }
+}
