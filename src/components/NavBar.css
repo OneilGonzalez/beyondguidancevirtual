@@ -11,8 +11,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
-
+.navbar-logo {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
+    color: #020035;
+    font-size:30px;
+    
+}
 .navbar-logo img {
     width: 75px; /* Adjust the width to your desired size */
     height: auto; /* Maintain aspect ratio */
@@ -21,6 +29,8 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size:20px
 }
 
 .navbar-links li {
@@ -39,16 +49,15 @@
 }
 
 /* Responsive adjustments */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:780px) {
     .navbar {
         left: 20px; /* Adjust left margin for smaller screens */
         right: 20px; /* Adjust right margin for smaller screens */
     }
-    
     .navbar-logo {
-        font-size: 1.2rem; /* Decrease font size for smaller screens */
+        font-size: 25px; /* Decrease font size for smaller screens */
+        
     }
-    
     .navbar-links li {
         margin-right: 10px; /* Decrease margin between links for smaller screens */
     }
