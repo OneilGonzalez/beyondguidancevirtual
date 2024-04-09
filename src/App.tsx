@@ -8,7 +8,7 @@ const App: React.FC = () => {
   return (
     <div>
       <NavBar /> {/* Render the Navbar component */}
-      <div className="container" style={{ paddingTop: '70px' }}> {/* Apply padding to the main content area */}
+      <div className="container" > {/* Apply padding to the main content area */}
         <Task
           title="Task 1"
           content={
@@ -26,7 +26,7 @@ const App: React.FC = () => {
             </>
           }
         />
-        
+        <br></br>
         <Task
           title="Task 2"
           content={
@@ -44,6 +44,7 @@ const App: React.FC = () => {
             </>
           }
         />
+        <br></br>
         <Task
           title="Task 1"
           content={
@@ -61,6 +62,7 @@ const App: React.FC = () => {
             </>
           }
         />
+        <br></br>
         <Task
           title="Task 1"
           content={
@@ -78,6 +80,7 @@ const App: React.FC = () => {
             </>
           }
         />
+        <br></br>
         <Task
           title="Task 1"
           content={

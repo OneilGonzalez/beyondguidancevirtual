@@ -1,21 +1,22 @@
 /* src/components/Task.css */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-  }
-  
-  .container {
-    max-width: calc(2168px + 120px); /* Adjust max-width to include space of .navbar margins */
-    margin: 60px auto;
-    justify-content: center; /* Center content horizontally */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-  
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: calc(2168px + 120px); /* Adjust max-width to include space of .navbar margins */
+  margin: 60px auto;
+  justify-content: center; /* Center content horizontally */
+  padding-top: 70px;/*para may space between beyondguidancevirtual and ano*/
+}
+
 .task-item {
   border-bottom: 1px solid #ccc;
   width: calc(100% - 120px); /* Adjust width to match .navbar */

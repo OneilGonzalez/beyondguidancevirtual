@@ -9,12 +9,12 @@ const NavBar = () => {
       <div className="navbar-logo">
         
         <img src={logo} alt="logo"/>
-        <p>beyondguidancevirtual</p>
+        <p>Beyondguidancevirtual</p>
       </div>
       <ul className="navbar-links">
         <li><a href="#">Home</a></li>
-        <li><a href="#">Courses</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><a href="#">Topics</a></li>
+        <li><a href="#">Profile</a></li>
 
       </ul>
     </nav>
