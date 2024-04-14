@@ -7,7 +7,6 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
 }
 
 .container {
@@ -30,16 +29,18 @@ body {
   align-items: center;
   padding: 15px 20px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #000000;
 }
 
 .task-title {
   font-size: 18px;
   font-weight: bold;
+  color:#f1f1f1;
 }
 
 .task-icon {
   font-size: 20px;
+  color:#222222;
 }
 
 .task-content {

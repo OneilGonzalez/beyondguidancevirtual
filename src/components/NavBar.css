@@ -4,7 +4,7 @@
     top: 10px;
     left: 30px; /* Adjust left margin */
     right: 30px; /* Adjust right margin */
-    background-color: #FDDE6C;
+    background-color: #000000;
     padding: 15px; /* Adjust padding as needed */
     margin-top: 5px; /* Adjust top margin */
     margin-bottom: 5px; /* Adjust bottom margin */
@@ -17,12 +17,12 @@
     font-family: 'Oswald', sans-serif;
     display: flex;
     align-items: center;
-    color: #020035;
+    color: #222222;
     font-size:30px;
     
 }
 .navbar-logo img {
-    width: 75px; /* Adjust the width to your desired size */
+    width: 50px; /* Adjust the width to your desired size */
     height: auto; /* Maintain aspect ratio */
 }
 .navbar-links {
@@ -39,7 +39,7 @@
 }
 
 .navbar-links li a {
-    color: #020035;
+    color: #222222;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -56,7 +56,7 @@
         right: 15px; /* Adjust right margin for smaller screens */
     }
     .navbar-logo {
-        font-size: 25px; /* Decrease font size for smaller screens */
+        font-size: 30px; /* Decrease font size for smaller screens */
         
     }
     .navbar-links li {
