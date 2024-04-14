@@ -1,5 +1,5 @@
 # BeyondGuidanceVirtual
-<img src="src/assets/BasicGearVirtual_nobg.png" width="200" style="margin-right: 10px;">
+<img src="src/assets/basicgearvirtual_nobg.png" width="200" style="margin-right: 10px;">
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
