@@ -12,9 +12,9 @@ const NavBar = () => {
         <p>Beyondguidancevirtual</p>
       </div>
       <ul className="navbar-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Topics</a></li>
-        <li><a href="#">Profile</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/topics">Topics</a></li>
+        <li><a href="/profile">Profile</a></li>
 
       </ul>
     </nav>
