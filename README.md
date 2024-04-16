@@ -1,4 +1,4 @@
-# BeyondGuidanceVirtual
+# BasicGearsVirtual
 <img src="src/assets/basicgearvirtual_nobg.png" width="200" style="margin-right: 10px;">
 
 ### This was created using Vite with React TSX and Vanilla JS for the frontend
