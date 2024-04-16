@@ -11,7 +11,6 @@ body {
 
 .container {
   max-width: calc(2168px + 120px); /* Adjust max-width to include space of .navbar margins */
-  margin: 60px auto;
   justify-content: center; /* Center content horizontally */
   padding-top: 70px;/*para may space between beyondguidancevirtual and ano*/
 }
