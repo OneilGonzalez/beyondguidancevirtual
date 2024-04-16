@@ -1,14 +1,12 @@
-// src/App.tsx
+// Topics.tsx
 import React from 'react';
 import Task from "./components/Task";
-import NavBar from './components/NavBar'; // Import the Navbar component
 import './index.css'
 
 const Topics: React.FC = () => {
   return (
     <div>
-      <NavBar /> {/* Render the Navbar component */}
-      <div className="container" > {/* Apply padding to the main content area */}
+      <div className="container" > 
         <Task
           title="Task 1"
           content={
@@ -46,7 +44,7 @@ const Topics: React.FC = () => {
         />
         <br></br>
         <Task
-          title="Task 1"
+          title="Task 3"
           content={
             <>
               <p>Introduction</p>
@@ -64,7 +62,7 @@ const Topics: React.FC = () => {
         />
         <br></br>
         <Task
-          title="Task 1"
+          title="Task 4"
           content={
             <>
               <p>Introduction</p>
@@ -82,7 +80,7 @@ const Topics: React.FC = () => {
         />
         <br></br>
         <Task
-          title="Task 1"
+          title="Task 5"
           content={
             <>
               <p>Introduction</p>

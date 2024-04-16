@@ -9,7 +9,7 @@ const NavBar = () => {
       <div className="navbar-logo">
         
         <img src={logo} alt="logo"/>
-        <p>Beyondguidancevirtual</p>
+        <p>BasicGearsVirtual</p>
       </div>
       <ul className="navbar-links">
         <li><a href="/">Home</a></li>
