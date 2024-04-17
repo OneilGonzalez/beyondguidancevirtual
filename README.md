@@ -1,7 +1,9 @@
 # BasicGearsVirtual
 <img src="src/assets/basicgearvirtual_nobg.png" width="200" style="margin-right: 10px;">
 
-### This was created using Vite with React TSX and Vanilla JS for the frontend
+### Languages Used
+This was created using Vite with React TSX and Vanilla CSS for the frontend
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
