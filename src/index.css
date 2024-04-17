@@ -1,5 +1,14 @@
+/* index.css */
 body {
-  background-color: #222222; /* Change background color for the whole site */
+  background-color: #121212; /* Change background color for the whole site */
   margin: 0; /* Reset default margin */
   padding: 0; /* Reset default padding */
+}
+
+
+.container {
+  max-width: calc(2168px + 120px); /* Adjust max-width to include space of .navbar margins */
+  justify-content: center; /* Center content horizontally */
+  padding-top: 60px; /* Add padding-top to create space between navbar and content */
+  padding-bottom: 45px;
 }

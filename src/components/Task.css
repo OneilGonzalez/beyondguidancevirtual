@@ -9,19 +9,15 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.container {
-  max-width: calc(2168px + 120px); /* Adjust max-width to include space of .navbar margins */
-  justify-content: center; /* Center content horizontally */
-  padding-top: 70px;/*para may space between beyondguidancevirtual and ano*/
-  padding-bottom: 45px;
-}
 
-/*.task-item {
+.task-item {
   border-bottom: 1px solid #ddd;
   width: calc(100% - 120px); 
   margin-left: 60px; 
   margin-right: 60px; 
-}*/
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
 
 .task-header {
   display: flex;
