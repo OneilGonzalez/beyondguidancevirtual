@@ -9,16 +9,13 @@ body {
   font-family: Arial, sans-serif;
 }
 
-
 .task-item { /*to check if right or wrong soon*/
-
   width: calc(100% - 120px); 
   margin-left: 60px; 
   margin-right: 60px; 
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   border-bottom: 1px solid #ddd; /*border-bottom: 5px solid #ddd;*/
-  border-bottom-color: #ddd; /*changing color */
   /*border-right: 10px solid rgb(110, 11, 11);
   border-top-right-radius: 20px;
   border-right-color: rgb(10, 110, 10);*/

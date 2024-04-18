@@ -4,7 +4,7 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer'
 import Home from './Home';
 import Profile from './Profile';
-import Topics from './Topics'; // Adjusted import path
+import Topics from './Topics'; 
 import './index.css';
 
 const App: React.FC = () => {

@@ -2,7 +2,7 @@
 
 .navbar {
     position: fixed;
-    top: 10px;
+    top: 0px; /*top*/
     left: 30px; /* Adjust left margin */
     right: 30px; /* Adjust right margin */
     background-color: #000000;
@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     border-radius: 20px;
-    
+    z-index: 1000;
 }
 .navbar-logo {
     font-family: 'Oswald', sans-serif;
