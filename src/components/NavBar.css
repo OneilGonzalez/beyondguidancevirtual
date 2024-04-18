@@ -7,8 +7,7 @@
     right: 30px; /* Adjust right margin */
     background-color: #000000;
     padding: 15px; /* Adjust padding as needed */
-    margin-top: 5px; /* Adjust top margin */
-    margin-bottom: 5px; /* Adjust bottom margin */
+    margin-top: 10px; /* Adjust top margin */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,7 +28,7 @@
 }
 .navbar-links {
     list-style-type: none;
-    margin: 0;
+    margin: 10px;
     padding: 0;
     font-family: 'Oswald', sans-serif;
     font-size: 20px

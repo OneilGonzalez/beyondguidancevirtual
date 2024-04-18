@@ -4,9 +4,11 @@ import React from 'react';
 
 const Profile: React.FC = () => {
     return (
-        <div>
-            <h2>. </h2>
-        </div>
+<div>
+      <div className="container" > 
+        <h2>,</h2>
+      </div>
+    </div>
     );
 }
 

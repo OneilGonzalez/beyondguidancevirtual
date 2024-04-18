@@ -2,19 +2,13 @@
 
 import React from 'react';
 import './Home.css';
-import hero from './assets/hero.webm';
+import HomeVideo from './components/HomeVideo';
 
 const Home: React.FC = () => {
   return (
     <div className="home-container">
-      <div className="video-background">
-        <video autoPlay loop muted>
-        <source src={hero} type="video/webm" />
-          Your browser does not support the video tag.
-        </video>
-        <div className="overlay"></div>
-      </div>
-      <h2 className="top-heading">.</h2>
+      <HomeVideo />
+      <h2 className="container">.</h2>
     </div>
   );
 };
