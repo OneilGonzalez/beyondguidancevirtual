@@ -1,7 +1,6 @@
 // Topics.tsx
 import React from 'react';
-import Task from "./components/Task";
-import './index.css'
+import Task from "../components/Task";
 
 const Topics: React.FC = () => {
   return (

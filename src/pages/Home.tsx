@@ -1,7 +1,7 @@
 // Home.tsx
 
 import React from 'react';
-import HomeVideo from './components/HomeVideo';
+import HomeVideo from '../components/HomeVideo';
 
 const Home: React.FC = () => {
   return (

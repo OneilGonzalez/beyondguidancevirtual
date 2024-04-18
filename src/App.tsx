@@ -2,9 +2,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer'
-import Home from './Home';
-import Profile from './Profile';
-import Topics from './Topics'; 
+import Home from './pages/Home';
+import Profile from './pages/Profile';
+import Topics from './pages/Topics'; 
 import './index.css';
 
 const App: React.FC = () => {
