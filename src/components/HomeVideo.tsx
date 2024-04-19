@@ -3,10 +3,12 @@
 import React from 'react';
 import './HomeVideo.css';
 import hero from '../assets/hero.webm';
+import TypingText from './TypingText';
 
 const HomeVideo: React.FC = () => {
   return (
     <div className="video-background">
+      <TypingText />
       <video autoPlay loop muted>
         <source src={hero} type="video/webm" />
         Your browser does not support the video tag.
