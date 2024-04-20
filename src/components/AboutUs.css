@@ -1,0 +1,62 @@
+/* AboutUs.css */
+.about-us {
+    border: 2px solid #ddd; /* Border style */
+    border-radius: 20px; /* Rounded corners */
+    padding: 20px; /* Padding inside the rectangle */
+    margin-top: 60px; /* Add margin to push the rectangle lower */
+    background-color: rgba(0, 0, 0, 0.8);
+    color:#ddd;
+    margin-left: 100px; /* Adjust the left margin */
+    margin-right: 100px; /* Adjust the right margin */
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center;
+}
+  
+.developer-list {
+    display: flex;
+    color:#ddd;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items horizontally */
+
+  }
+  
+  .developer {
+    position: relative;
+    margin: 0 10px;
+    color:#ddd;
+  }
+  
+  .developer .developer-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+    opacity: 0;
+  }
+  
+  .developer:hover .developer-info {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  
+  .developer-image {
+    width: 200px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  @media only screen and (max-width:768px) {
+    .about-us {
+        margin-left: 50px; /* Adjust the left margin */
+        margin-right: 50px; /* Adjust the right margin */
+    }
+    .developer-image {
+        width: 150px; /* Adjust image width as needed */
+        height: auto; /* Maintain aspect ratio */
+      }
+  }
