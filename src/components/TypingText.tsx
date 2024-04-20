@@ -5,7 +5,7 @@ import './TypingText.css';
 
 const TypingText: React.FC = () => {
   const [text, setText] = useState('');
-  const phrases = ['Building Good Virtual Labs', 'Beyond Guidance Virtual', 'Basic Gears Virtual'];
+  const phrases = ['Building Good Virtual Labs', 'Basic Gears Virtual'];
   const typingSpeed = 100; // Adjust typing speed in milliseconds
   const deleteSpeed = 50; // Adjust deletion speed in milliseconds
   const pauseSpeed = 1000; // Adjust pause between phrases in milliseconds

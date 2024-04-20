@@ -9,7 +9,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     z-index: -1; /* Ensure it's behind other content */
   }
   
@@ -27,4 +27,12 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8); /* Adjust opacity as needed */
   }
-  
+  .content-below-video {
+    position: absolute;
+    top: 100vh; /* Start below the video */
+    left: 0;
+    width: 100%;
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box;
+    color: white; /* Adjust text color */
+  }
