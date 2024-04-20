@@ -1,7 +1,7 @@
 /* TypingText.css */
 .typing-text {
     position: fixed;
-    top: 15%; /* Center vertically */
+    top: 16.5%; /* Center vertically */
     left: 50%; /* Center horizontally */
     transform: translate(-50%, -50%);
     font-size: 40px;

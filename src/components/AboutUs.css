@@ -3,31 +3,35 @@
     border: 2px solid #ddd; /* Border style */
     border-radius: 20px; /* Rounded corners */
     padding: 20px; /* Padding inside the rectangle */
-    margin-top: 60px; /* Add margin to push the rectangle lower */
+    margin-top: 800px; /* Add margin to push the rectangle lower */
+    margin-bottom:25px;
     background-color: rgba(0, 0, 0, 0.8);
     color:#ddd;
     margin-left: 100px; /* Adjust the left margin */
     margin-right: 100px; /* Adjust the right margin */
+    display: flex; /* Use flexbox */
     flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center items vertically */
     align-items: center; /* Center items horizontally */
     text-align: center;
+    height: 580px;
 }
   
-.developer-list {
+.developer-list, .tools-list  {
     display: flex;
     color:#ddd;
     flex-wrap: wrap; /* Allow items to wrap to the next line */
     justify-content: center; /* Center items horizontally */
 
-  }
+}
   
-  .developer {
+  .developer, .tool {
     position: relative;
     margin: 0 10px;
     color:#ddd;
-  }
+}
   
-  .developer .developer-info {
+  .developer .developer-info, .tool .tool-info {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -39,24 +43,25 @@
     transform: translateY(100%);
     transition: transform 0.3s ease-in-out;
     opacity: 0;
-  }
+}
   
-  .developer:hover .developer-info {
+.developer:hover .developer-info , .tool:hover .tool-info{
     transform: translateY(0%);
     opacity: 1;
-  }
+}
   
-  .developer-image {
-    width: 200px; /* Adjust image width as needed */
+.developer-image, .tool-image  {
+    width: 150px; /* Adjust image width as needed */
     height: auto; /* Maintain aspect ratio */
-  }
-  @media only screen and (max-width:768px) {
+}
+@media only screen and (max-width:768px) {
     .about-us {
         margin-left: 50px; /* Adjust the left margin */
         margin-right: 50px; /* Adjust the right margin */
-    }
-    .developer-image {
-        width: 150px; /* Adjust image width as needed */
+}
+    .developer-image, .tool-image  {
+        width: 120px; /* Adjust image width as needed */
         height: auto; /* Maintain aspect ratio */
-      }
-  }
+    }
+}
+
