@@ -9,4 +9,5 @@
     text-align: center;
     z-index: 1000; /* Ensure it's on top of other content */
     color:#ddd;
+    font-family: 'Oswald', sans-serif;
 }
