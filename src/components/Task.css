@@ -19,6 +19,10 @@ body {
   /*border-right: 10px solid rgb(110, 11, 11);
   border-top-right-radius: 20px;
   border-right-color: rgb(10, 110, 10);*/
+  
+}
+.task-item + .task-item {
+  margin-top: 20px; /* Adjust the margin to control the spacing between tasks */
 }
 
 .task-header {
@@ -38,12 +42,19 @@ body {
   font-size: 18px;
   font-weight: bold;
   color:#ddd;
-  
 }
 
 .task-icon {
   font-size: 20px;
   color:#222222;
+}
+
+.task-image {
+  max-height: 200px; 
+  max-width:600px;
+  display: block; /* Ensure the image is a block element */
+  margin-left: auto; /* Auto margin to center the image horizontally */
+  margin-right: auto; /* Auto margin to center the image horizontally */
 }
 
 .task-content {
@@ -53,6 +64,10 @@ body {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   padding: 20px 30px; 
+}
+.task-question{
+  padding-top:20px;
+  
 }
 
 /* Show active task content */
@@ -67,6 +82,7 @@ body {
   border: 1px solid #000000;
   border-radius: 5px;
   box-shadow: inset 0 1px 3px #ddd;
+  
 }
 
 .task-content button {
@@ -89,6 +105,10 @@ body {
   .task-item {
     width: calc(100% - 120px); /* Adjust width for larger screens */
     margin: 0 60px; /* Adjust margin for larger screens */
+  }
+  .task-image {
+    max-height: 100px; 
+    max-width:200px;
   }
 }
 
