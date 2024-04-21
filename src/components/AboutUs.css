@@ -1,11 +1,10 @@
 /* AboutUs.css */
 .about-us {
-    border: 2px solid #ddd; /* Border style */
+
     border-radius: 20px; /* Rounded corners */
     padding: 20px; /* Padding inside the rectangle */
     margin-top: 800px; /* Add margin to push the rectangle lower */
     margin-bottom:25px;
-    background-color: rgba(0, 0, 0, 0.8);
     color:#ddd;
     margin-left: 100px; /* Adjust the left margin */
     margin-right: 100px; /* Adjust the right margin */
@@ -27,7 +26,7 @@
   
   .developer, .tool {
     position: relative;
-    margin: 0 10px;
+    margin: 15px 15px; /* Add margin to create space between elements */
     color:#ddd;
 }
   
@@ -53,6 +52,7 @@
 .developer-image, .tool-image  {
     width: 150px; /* Adjust image width as needed */
     height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px
 }
 @media only screen and (max-width:768px) {
     .about-us {
@@ -60,7 +60,7 @@
         margin-right: 50px; /* Adjust the right margin */
 }
     .developer-image, .tool-image  {
-        width: 120px; /* Adjust image width as needed */
+        width: 100px; /* Adjust image width as needed */
         height: auto; /* Maintain aspect ratio */
     }
 }
