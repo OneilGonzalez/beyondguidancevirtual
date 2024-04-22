@@ -54,7 +54,7 @@
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 10px
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:1000px) {
     .about-us {
         margin-left: 50px; /* Adjust the left margin */
         margin-right: 50px; /* Adjust the right margin */

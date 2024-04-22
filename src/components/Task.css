@@ -50,7 +50,7 @@ body {
 }
 
 .task-image {
-  max-height: 200px; 
+  max-height: 250px; 
   max-width:600px;
   display: block; /* Ensure the image is a block element */
   margin-left: auto; /* Auto margin to center the image horizontally */
@@ -95,9 +95,6 @@ body {
   border: 2px solid black; /* Add black border */
 }
 
-.task-content button:hover {
-  background-color: #45a049;
-}
 
 /*Responsive adjustments */
 /*parang di need?*/
