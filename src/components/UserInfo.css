@@ -1,0 +1,20 @@
+/* UserInfo.css */
+
+.user-info-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto 20px; /* Center the card horizontally and add bottom margin */
+    max-width: 75%; /* Set maximum width to 50% of the container */
+    width: 100%; /* Make the card responsive */
+  }
+  
+  .user-info-card h2 {
+    margin-top: 0;
+  }
+  
+  .user-info-card p {
+    margin-bottom: 10px;
+  }
+  
