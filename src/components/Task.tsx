@@ -14,17 +14,21 @@ const Task: React.FC<TaskProps> = ({ title, image, question, content, correctAns
   const [isActive, setIsActive] = useState(false);
   const [inputValue, setInputValue] = useState('');
   const [isAnswerCorrect, setIsAnswerCorrect] = useState(false);
+  const [isAnswerSubmitted, setIsAnswerSubmitted] = useState(false);
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(event.target.value);
   };
 
   const checkAnswer = () => {
-    if (correctAnswer && inputValue.trim().toLowerCase() === correctAnswer.toLowerCase()) {
-      setIsAnswerCorrect(true);
-    } else {
-      setIsAnswerCorrect(false);
+    if (!isAnswerSubmitted) {
+      if (correctAnswer && inputValue.trim().toLowerCase() === correctAnswer.toLowerCase()) {
+        setIsAnswerCorrect(true);
+      } else {
+        setIsAnswerCorrect(false);
+      }
     }
+    setIsAnswerSubmitted(true);
   };
 
   return (
@@ -38,9 +42,14 @@ const Task: React.FC<TaskProps> = ({ title, image, question, content, correctAns
         {content}
         <div className="task-question">{question}</div>
         <input type="text" value={inputValue} onChange={handleInputChange} />
-        <button style={{ backgroundColor: isAnswerCorrect ? 'green' : 'initial' }} onClick={checkAnswer}>
+        <button style={{ backgroundColor: isAnswerCorrect ? 'green' : 'initial' }} onClick={checkAnswer} disabled={isAnswerSubmitted}>
           Check Answer
         </button>
+        {isAnswerCorrect && (
+          <div className="correct-answer">
+            Correct answer: {correctAnswer}
+          </div>
+        )}
         {/*
         <button 
           className={isAnswerCorrect ? 'correct' : ''} 
