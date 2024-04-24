@@ -2,6 +2,8 @@
 
 import React from 'react';
 import UserInfo from '../components/UserInfo';
+import profilePic from '../assets/jakwes_barong.jpg';
+
 const Profile: React.FC = () => {
   const user = {
     name: "John Doe",
@@ -10,8 +12,13 @@ const Profile: React.FC = () => {
   };
     return (
 <div>
-      <div className="container" > 
-        <UserInfo name={user.name} email={user.email} bio={user.bio} />
+      <div className="container">
+        <UserInfo
+          name={user.name}
+          email={user.email}
+          bio={user.bio}
+          profilePic={profilePic} // Passing profile picture as prop
+        />
       </div>
     </div>
     );

@@ -1,20 +1,55 @@
 /* UserInfo.css */
 
 .user-info-card {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 0 auto 20px; /* Center the card horizontally and add bottom margin */
-    max-width: 75%; /* Set maximum width to 50% of the container */
-    width: 100%; /* Make the card responsive */
-  }
+  background-color: #ddd; /* Light gray background */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 0 auto 20px; /* Center the card horizontally and add bottom margin */
+  max-width: 75%; /* Set maximum width to 75% of the container */
+  width: 100%; /* Make the card responsive */
+  color: #000000; /* Text color */
+}
+
+.user-info-card h2 {
+  margin-top: 0;
+  color: #88838a; /* Dark gray heading color */
+  margin-bottom: 0; /* Remove default margin */
+}
+
+.user-info-card p {
+  margin-bottom: 10px;
+}
+
+.profile-info {
   
-  .user-info-card h2 {
-    margin-top: 0;
-  }
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
   
-  .user-info-card p {
-    margin-bottom: 10px;
-  }
+}
+.profile-info h2 {
+  font-size: 40px; /* Increase font size of name */
+  margin: 0px 10px;
+}
+
+.profile-picture {
+  margin: 10px 5px; /* Add some space between the picture and name */
   
+}
+
+.profile-picture img {
+  width: 200px; /* Set the width to 200px */
+  height: 200px; /* Set the height to 200px */
+  border-radius: 50%; /* Make the image circular */
+}
+
+@media only screen and (max-width:768px) {
+  .profile-info h2 {
+    font-size: 32px; /* Increase font size of name */
+  }
+  .profile-picture img {
+    width: 100px; /* Set the width to 200px */
+    height: 100px; /* Set the height to 200px */
+    border-radius: 50%; /* Make the image circular */
+  }
+}
