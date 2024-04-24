@@ -1,4 +1,5 @@
 // src/components/Task.tsx
+
 import React, { useState } from 'react';
 import './Task.css'; // Import your CSS file
 
@@ -15,20 +16,22 @@ const Task: React.FC<TaskProps> = ({ title, image, question, content, correctAns
   const [inputValue, setInputValue] = useState('');
   const [isAnswerCorrect, setIsAnswerCorrect] = useState(false);
   const [isAnswerSubmitted, setIsAnswerSubmitted] = useState(false);
+  const [incorrectInput, setIncorrectInput] = useState(false);
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(event.target.value);
+    setIncorrectInput(false); // Reset incorrect input message when user starts typing
   };
 
   const checkAnswer = () => {
     if (!isAnswerSubmitted) {
       if (correctAnswer && inputValue.trim().toLowerCase() === correctAnswer.toLowerCase()) {
         setIsAnswerCorrect(true);
+        setIsAnswerSubmitted(true);
       } else {
-        setIsAnswerCorrect(false);
+        setIncorrectInput(true); // Set incorrect input message
       }
     }
-    setIsAnswerSubmitted(true);
   };
 
   return (
@@ -41,32 +44,19 @@ const Task: React.FC<TaskProps> = ({ title, image, question, content, correctAns
         <img src={image} alt="Task" className="task-image" />
         {content}
         <div className="task-question">{question}</div>
-        <input type="text" value={inputValue} onChange={handleInputChange} />
-        <button style={{ backgroundColor: isAnswerCorrect ? 'green' : 'initial' }} onClick={checkAnswer} disabled={isAnswerSubmitted}>
+        <input type="text" value={inputValue} onChange={handleInputChange} disabled={isAnswerCorrect} />
+        <button style={{ backgroundColor: isAnswerCorrect ? 'green' : 'initial' }} onClick={checkAnswer} disabled={isAnswerCorrect}>
           Check Answer
         </button>
+        {incorrectInput && !isAnswerCorrect && <div className="incorrect-message">Incorrect input. Try again.</div>}
         {isAnswerCorrect && (
           <div className="correct-answer">
             Correct answer: {correctAnswer}
           </div>
         )}
-        {/*
-        <button 
-          className={isAnswerCorrect ? 'correct' : ''} 
-          onClick={checkAnswer}
-          disabled={isAnswerCorrect} // Disable button after correct answer
-        >
-          {isAnswerCorrect ? 'Correct!' : 'Check Answer'}
-        </button>
-        {isAnswerCorrect && (
-          <div className="correct-answer">
-            Correct answer: {correctAnswer}
-          </div>
-        )}*/}
       </div>
     </div>
   );
 };
 
 export default Task;
-
