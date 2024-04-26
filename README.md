@@ -6,6 +6,12 @@ This was created using Vite with React TSX and Vanilla CSS for the frontend
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+```ts
+To start the program kindly use the command:
+  npm run dev
+This command will host your website on http://localhost:5173/
+```
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
@@ -16,12 +22,6 @@ Currently, two official plugins are available:
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
 - Configure the top-level `parserOptions` property like this:
-- 
-```ts
-To start the program kindly use the command:
-  npm run dev
-This command will host your website on http://localhost:5173/
-```
 
 ```js
 export default {
