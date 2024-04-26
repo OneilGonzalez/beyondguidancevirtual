@@ -3,8 +3,8 @@
 .navbar {
     position: fixed;
     top: 0px; /*top*/
-    left: 30px; /* Adjust left margin */
-    right: 30px; /* Adjust right margin */
+    left: 2%; /* Adjust left margin */
+    right: 2%; /* Adjust right margin */
     background-color: #000000;
     padding: 15px; /* Adjust padding as needed */
     margin-top: 10px; /* Adjust top margin */
@@ -52,10 +52,7 @@
 /* Responsive adjustments */
 
 @media only screen and (max-width:768px) {
-    .navbar {
-        left: 15px; /* Adjust left margin for smaller screens */
-        right: 15px; /* Adjust right margin for smaller screens */
-    }
+
 
     .navbar-links li {
         margin-right: 10px; /* Decrease margin between links for smaller screens */

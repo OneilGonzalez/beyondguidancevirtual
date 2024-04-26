@@ -3,8 +3,8 @@
 
     border-radius: 20px; /* Rounded corners */
     padding: 20px; /* Padding inside the rectangle */
-    margin-top: 800px; /* Add margin to push the rectangle lower */
-    margin-bottom:25px;
+    margin-top: 40%; /* Add margin to push the rectangle lower */
+    margin-bottom:2%;
     color:#ddd;
     margin-left: 100px; /* Adjust the left margin */
     margin-right: 100px; /* Adjust the right margin */
