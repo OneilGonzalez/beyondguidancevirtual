@@ -18,7 +18,9 @@ If you are developing a production application, we recommend updating the config
 - Configure the top-level `parserOptions` property like this:
 - 
 ```ts
-npm run dev - used to start the program
+To start the program kindly use the command:
+  npm run dev
+This command will host your website on http://localhost:5173/
 ```
 
 ```js
