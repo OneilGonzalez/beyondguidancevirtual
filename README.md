@@ -1,5 +1,5 @@
 # BasicGearsVirtual
-<img src="src/assets/basicgearvirtual_nobg.png" width="200" style="margin-right: 10px;">
+<img src="src/assets/bgvlogo.png" height="200" style="margin-right: 10px;">
 
 ### Languages Used
 This was created using Vite with React TSX and Vanilla CSS for the frontend
