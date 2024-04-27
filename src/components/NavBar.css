@@ -15,11 +15,11 @@
     z-index: 1000;
 }
 .navbar-logo {
-    font-family: 'Oswald', sans-serif;
     display: flex;
     align-items: center;
     color: #88838a;
     font-size:30px;
+    font-family: 'Urbanist', sans-serif;
     
 }
 .navbar-logo img {
@@ -28,15 +28,14 @@
 }
 .navbar-links {
     list-style-type: none;
-    margin: 5px;
     padding: 0;
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
 }
 
 .navbar-links li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 .navbar-links li a {
