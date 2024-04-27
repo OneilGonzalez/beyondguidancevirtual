@@ -1,7 +1,7 @@
 // Navbar.js
 
 import './NavBar.css'; // Import CSS for Navbar styling
-import logo from "/src/assets/basicgearsvirtual.png";
+import logo from "/src/assets/bgvlogo.png";
 const NavBar = () => {
   return (
     

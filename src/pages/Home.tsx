@@ -11,6 +11,7 @@ const Home: React.FC = () => {
       
       <h2 className="container"></h2>
       <AboutUs />{/*<AboutUs />*/}
+      
     </div>
   );
 };
