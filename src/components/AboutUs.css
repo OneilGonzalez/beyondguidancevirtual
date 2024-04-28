@@ -1,9 +1,14 @@
 /* AboutUs.css */
+.about-us-container {
+    background-color: black;/*#88838a;  Gray background color */
+    padding: 20px; /* Padding inside the container */
+    margin-top: 800px;/*for this i will disable the margin top on aboutus */
+}
 .about-us {
 
     border-radius: 20px; /* Rounded corners */
     padding: 20px; /* Padding inside the rectangle */
-    margin-top: 40%; /* Add margin to push the rectangle lower */
+    /*margin-top: 50%; disabled due to about us container */
     margin-bottom:2%;
     color:#ddd;
     margin-left: 100px; /* Adjust the left margin */
@@ -13,7 +18,7 @@
     justify-content: center; /* Center items vertically */
     align-items: center; /* Center items horizontally */
     text-align: center;
-    height: 580px;
+
 }
   
 .developer-list, .tools-list  {
@@ -36,7 +41,7 @@
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.8);
-    color: white;
+    color: #ddd;
     padding: 10px;
     text-align: center;
     transform: translateY(100%);

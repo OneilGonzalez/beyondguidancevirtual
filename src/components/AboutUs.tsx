@@ -23,35 +23,36 @@ const languagesAndTools = [
 
 const AboutUs: React.FC = () => {
   return (
-    <div className="about-us">
-      <h2>Developers</h2>
-      <div className="developer-list">
-        {developers.map(developer => (
-          <div className="developer" key={developer.id}>
-            <div className="developer-info">
-              <p className="name">{developer.name}</p>
-              <p>{developer.school}</p>
+    <div className="about-us-container">
+      <div className="about-us">
+        <h2>Developers</h2>
+        <div className="developer-list">
+          {developers.map(developer => (
+            <div className="developer" key={developer.id}>
+              <div className="developer-info">
+                <p className="name">{developer.name}</p>
+                <p>{developer.school}</p>
+              </div>
+              <div className="developer-image-container">
+                <img className="developer-image" src={developer.image} alt={developer.name} />
+              </div>
             </div>
-            <div className="developer-image-container">
-              <img className="developer-image" src={developer.image} alt={developer.name} />
+          ))}
+        </div>
+        <h2>Languages and Tools Used</h2>
+        <div className="tools-list">
+          {languagesAndTools.map(tool => (
+            <div className="tool" key={tool.id}>
+              <div className="tool-info">
+                <p className="name">{tool.name}</p>
+              </div>
+              <div className="tool-image-container">
+                <img className="tool-image" src={tool.image} alt={tool.name} />
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-      <h2>Languages and Tools Used</h2>
-      <div className="tools-list">
-        {languagesAndTools.map(tool => (
-          <div className="tool" key={tool.id}>
-            <div className="tool-info">
-              <p className="name">{tool.name}</p>
-            </div>
-            <div className="tool-image-container">
-              <img className="tool-image" src={tool.image} alt={tool.name} />
-            </div>
-          </div>
-        ))}
-      </div>
-      
     </div>
   );
 };
