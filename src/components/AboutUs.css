@@ -1,6 +1,6 @@
 /* AboutUs.css */
 .about-us-container {
-    background-color: black;/*#88838a;  Gray background color */
+    background-color: #121212;/*#88838a;  Gray background color */
     padding: 20px; /* Padding inside the container */
     margin-top: 800px;/*for this i will disable the margin top on aboutus */
 }
