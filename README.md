@@ -6,11 +6,11 @@ This was created using Vite with React TSX and Vanilla CSS for the frontend
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-```ts
 To start the program kindly use the command:
+```ts
   npm run dev
-This command will host your website on http://localhost:5173/
 ```
+This command will host your website on http://localhost:5173/
 
 Currently, two official plugins are available:
 
