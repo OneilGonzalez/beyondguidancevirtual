@@ -3,7 +3,10 @@
     background-color: #121212;/*#88838a;  Gray background color */
     padding: 20px; /* Padding inside the container */
     margin-top: 800px;/*for this i will disable the margin top on aboutus */
+    position: absolute;
 }
+
+
 .about-us {
 
     border-radius: 20px; /* Rounded corners */
@@ -55,7 +58,7 @@
 }
   
 .developer-image, .tool-image  {
-    width: 150px; /* Adjust image width as needed */
+    width: 250px; /* Adjust image width as needed */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 10px
 }
@@ -65,7 +68,7 @@
         margin-right: 50px; /* Adjust the right margin */
 }
     .developer-image, .tool-image  {
-        width: 100px; /* Adjust image width as needed */
+        width: 150px; /* Adjust image width as needed */
         height: auto; /* Maintain aspect ratio */
     }
 }

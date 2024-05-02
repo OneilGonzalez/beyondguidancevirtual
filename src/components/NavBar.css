@@ -13,6 +13,7 @@
     align-items: center;
     border-radius: 20px;
     z-index: 1000;
+
 }
 .navbar-logo {
     display: flex;
