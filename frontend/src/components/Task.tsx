@@ -9,6 +9,11 @@ interface TaskProps {
   content: React.ReactNode;
   question: string;
   correctAnswer: string;
+  /*
+  onAddTask: (task: string) => void;
+  onDeleteTask: () => void;
+  onUpdateTask: (task: string) => void;
+  */
 }
 
 const Task: React.FC<TaskProps> = ({ title, image, question, content, correctAnswer }) => {
