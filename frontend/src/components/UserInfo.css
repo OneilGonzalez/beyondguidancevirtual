@@ -1,14 +1,14 @@
 /* UserInfo.css */
 
 .user-info-card {
-  background-color: #ddd; /* Light gray background */
+  background-color:  #000000; /* Light gray background */
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin: 0 auto 20px; /* Center the card horizontally and add bottom margin */
   max-width: 75%; /* Set maximum width to 75% of the container */
   width: 100%; /* Make the card responsive */
-  color: #000000; /* Text color */
+  color: #ddd; /* Text color */
 }
 
 .user-info-card h2 {
