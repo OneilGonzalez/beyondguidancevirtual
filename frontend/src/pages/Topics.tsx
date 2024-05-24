@@ -8,7 +8,8 @@ const initialTopics = [
   { id: 3, name: 'Week 3', path: 'week3' },
   { id: 4, name: 'Week 4', path: 'week4' },
   { id: 5, name: 'Week 5', path: 'week5' },
-  { id: 6, name: 'Week 6', path: 'week6' }
+  { id: 6, name: 'Week 6', path: 'week6' },
+  {id:7, name: 'Lab 1', path: 'lab1'}
 ];
 
 const Topics: React.FC = () => {

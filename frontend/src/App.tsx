@@ -8,6 +8,7 @@ import Topics from './pages/Topics';
 import Week1 from './pages/Week1';
 import Week2 from './pages/Week2';
 import Week3 from './pages/Week3';
+import Lab1 from './pages/Lab1';
 
 const App: React.FC = () => {
   return (
@@ -23,6 +24,7 @@ const App: React.FC = () => {
             <Route path="/topics/week1" element={<Week1 />} />   
             <Route path="/topics/week2" element={<Week2 />} /> 
             <Route path="/topics/week3" element={<Week3 />} />
+            <Route path="/topics/lab1" element={<Lab1 />} />
             <Route path="/profile" element={<Profile />} />
           </Routes>
         </div>
